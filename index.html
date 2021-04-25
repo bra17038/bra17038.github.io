@@ -45,9 +45,13 @@
             target='_blank'>BYUI Online Learning</a>
         </p>
         <p>
-            Last Updated 
+            Last Updated <span id="datestamp"></span> <span id="timestamp"></span>
         </p>
     </footer>
-    <script src="js/timestamp.js"></script>
+    <!--<script src="js/stamps.js"></script>-->
+    <script>
+        document.querySelector('#datestamp').textContent = new Date(document.lastModified).toLocaleDateString('en-US',{weekdays: 'long', day: 'numeric', month: 'long', year: 'numeric'});
+        document.querySelector('#timestamp').textContent = new Date(document.lastModified).toLocaleTimeString('en-US');
+    </script>
 </body>
 </html>
