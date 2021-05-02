@@ -1,4 +1,45 @@
+footer a:any-link {
+    color:rgb(202, 240, 248);
+}
+body {
+    margin: 1.5em;
+    background-color: rgb(241, 250, 238);
+    font-family: 'Titillium Web', sans-serif;
+    }
+header, footer {
+    background-color: rgb(2, 62, 138);
+    color:rgb(202, 240, 248);
+    border-radius: 1em;
+    padding: 0.1em;
+    text-align: center;
+    }
+
+h2 {
+    background-color:black;
+    color:whitesmoke;
+    border-radius: .5em;
+    padding: 0.1em;
+    text-align: center;
+    }
+
+h1   {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5em;
+    }
+footer {
+    padding-top: 1em;
+}
+
 main {
-    grid-template-columns: 33% 33% 33%;
+    display: grid;
+    grid-template-columns: 1fr;
     grid-area: auto;
+    gap: 1em
+}
+
+main img {
+    max-width: 100%;
+    border-radius: .5em;
+    border: 1px solid black;
+    margin: auto;
 }

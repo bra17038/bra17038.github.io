@@ -9,61 +9,78 @@
     <title>WDD 230 - Lesson 2</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="lesson 2\css\small.css"/>
+    <link rel="stylesheet" href="lesson 2\css\medium.css"/>
+    <link rel="stylesheet" href="lesson 2\css\large.css"/>
     
+
+
 </head>
 <body>
-    <section>
-        <!--Principle's title-->
-        <p>Hick's Law</p>
-        <!--Company Name-->
-        <p>ZonaProp</p>
-        <!--Website address-->
-        <a href="https://www.zonaprop.com.ar/" 
-            target='_blank'>https://www.zonaprop.com.ar/</a>
-        <!--Mobile screenshot-->
-            <img src="images/Hicks_Law.png" 
-        alt="Hick's Law example from ZonaProp">
-        <!--Brief Description-->
-        <p>Description
-            https://cxl.com/blog/universal-web-design-principles/
-            Point #3
+    <header>
+        <h1>Design Principles Document<br><br>Hector Eduardo Brac</h1>
+    </header>
+    <main>
+        <section id= "Block1">
+            <!--Principle's title-->
+            <h2>Hick's Law</h2>
+            <!--Company Name-->
+            <h3>ZonaProp</h3>
+            <!--Website address-->
+            <a href="https://www.zonaprop.com.ar/" 
+            target='_blank'>https://www.zonaprop.com.ar/</a><br><br>
+            <!--Mobile screenshot-->           
+            <img src="images/Hicks_Law.png"; 
+            alt="Hick's Law example from ZonaProp";
+
+            <!--Brief Description-->
+            <p>The filter menu has the right amount of options for it to show specifically what the user wants without having them feel overwhelmend.</p>
+            <p>The options are also grouped in sub sections that help the user focus solely on what matters to them while skipping unnecesary parameters .</p>
+        </section>
+        <section id= "Block2">
+            <!--Principle's title-->
+            <h2>PARC: Proximity</h2>
+            <!--Company Name-->
+            <h3>Reddit</h3>
+            <!--Website address-->
+            <a href="https://www.reddit.com/" 
+                target='_blank'>https://www.reddit.com/</a><br><br>
+            <!--Mobile screenshot-->
+            <img src="images/PARC_Proximity.png"; 
+            alt="Principle of Proximity applied in Reddit";
+            <!--Brief Description-->
+            <p>Each subreddit's name is located close to it's logo and have the title of the post slightly larget below it to signify they belong together.</p>
+            <p>Action buttons are grouped together below the main text and everything is framed within a rectangle box that implies they belong to the same post information.</p>
+        </section>
+        <section id= "Block3">
+            <!--Principle's title-->
+            <h2>PARC: Alignment</h2>
+            <!--Company Name-->
+            <h3>BYU-Idaho</h3>
+            <!--Website address-->
+            <a href="https://www.byui.edu/" 
+                target='_blank'>https://www.byui.edu/</a><br><br>
+            <!--Mobile screenshot-->
+            <img src="images/PARC_Alignment.png"; 
+            alt="Principle of Alignment applied in BYU-I website";
+            <!--Brief Description-->
+            <p>The search icon, log-in icon and menu icon are all the same size and vertically aligned.</p>
+            <p>There is top and bottom vertical alligment between the icons to the right and the BYU Idaho logo and box to the left.</p>
+            <p>There is an invisible line that acts as a left-margin for the BYU Idaho text-logo. and the border of the content boxes below, as well as with the right margin of the menu icon and the end of the border for the content boxes. </p>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; 2021 | Hector E. Brac | Argentina | 
+            <a id="footerLink" href="https://www.byui.edu/online" 
+            target='_blank'>BYUI Online Learning</a>
         </p>
-    </section>
-    <section>
-        <!--Principle's title-->
-        <p>PARC: Proximity</p>
-        <!--Company Name-->
-        <p>Reddit</p>
-        <!--Website address-->
-        <a href="https://www.reddit.com/" 
-            target='_blank'>https://www.reddit.com/</a>
-        <!--Mobile screenshot-->
-            <img src="images/PARC_Proximity.png" 
-        alt="Principle of Proximity applied in Reddit">
-        <!--Brief Description-->
-        <p>Description
-            https://learn.g2.com/principles-of-design
-            Section: Proximity
+        <p>
+            Last Updated <span id="datestamp"></span> <span id="timestamp"></span>
         </p>
-    </section>
-    <section>
-        <!--Principle's title-->
-        <p>PARC: Alignment</p>
-        <!--Company Name-->
-        <p>BYU-Idaho</p>
-        <!--Website address-->
-        <a href="https://www.byui.edu/" 
-            target='_blank'>https://www.byui.edu/</a>
-        <!--Mobile screenshot-->
-            <img src="images/PARC_Alignment.png" 
-        alt="Principle of Alignment applied in BYU-I website">
-        <!--Brief Description-->
-        <p>Description
-            https://uxengineer.com/principles-of-design/alignment/
-            Get ideas from there
-        </p>
-    </section>
+    </footer>
+    <script src="js\stamp.js"></script>    
 </body>
 </html>
