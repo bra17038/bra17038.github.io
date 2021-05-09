@@ -10,9 +10,11 @@ header, footer {
     background-color: rgb(2, 62, 138);
     color:rgb(202, 240, 248);
     border-radius: 1em;
+    margin-bottom: -1em;
     padding: 0.1em;
     text-align: center;
     }
+
 h1   {
     font-family: 'Libre Baskerville', serif;
     }
@@ -21,7 +23,32 @@ footer {
 }
 
 main img {
-    padding-right: 0em;
-    margin-top: .75em;
-    border-radius: 1em;   
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;  
 }
+
+nav {
+    background-color: rgb(202, 240, 248);
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    color:rgb(2, 62, 138);
+    font-weight: 800;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav a:hover {
+    background-color: rgb(2, 62, 138);
+    color: rgb(202, 240, 248);
