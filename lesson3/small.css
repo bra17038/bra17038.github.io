@@ -1,0 +1,27 @@
+footer a:any-link {
+    color:rgb(202, 240, 248);
+}
+body {
+    margin: 1.5em;
+    background-color: rgb(241, 250, 238);
+    font-family: 'Titillium Web', sans-serif;
+    }
+header, footer {
+    background-color: rgb(2, 62, 138);
+    color:rgb(202, 240, 248);
+    border-radius: 1em;
+    padding: 0.1em;
+    text-align: center;
+    }
+h1   {
+    font-family: 'Libre Baskerville', serif;
+    }
+footer {
+    padding-top: 1em;
+}
+
+main img {
+    padding-right: 0em;
+    margin-top: .75em;
+    border-radius: 1em;   
+}
